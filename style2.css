@@ -1,0 +1,37 @@
+.main2 {
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+    padding: 10px;
+    margin: 30px;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main2 > div {
+    background: #eee;
+    padding: 1em; 
+    border: 5px solid #E67E22;
+    border-radius: 10px;
+}
+
+.main2 > .container1 {
+    background: black;
+    color: #ffffff;
+    grid-row: 1/3;
+}
+
+.main2 > .container2 {
+    background: #C0392B;
+    color: #ffffff;
+}
+
+.main2 > .container3 {
+    background:#58D68D;
+    color: #ffffff;  
+}
+
+.container4 > div {
+    border: #333 1px solid;
+    padding: 1em;
+}
